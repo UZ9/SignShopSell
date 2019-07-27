@@ -1,0 +1,14 @@
+name: SignShopSell
+main: com.yerti.signshopsell.SignShopSell
+version: 0.1
+author: Yerti
+depend: [ShopGUIPlus]
+description: >
+  Sell Sign for the ShopGUIPlus (Custom for client)
+permissions:
+  signshopsell.placesign:
+    description: Allows the player to place down a Sell Sign.
+    default: op
+  signshopsell.usesign:
+    description: Allows the player to use a Sell Sign.
+    default: op
